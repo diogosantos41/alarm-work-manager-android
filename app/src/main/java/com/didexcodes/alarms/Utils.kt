@@ -9,7 +9,7 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.core.content.ContextCompat
 
-
+const val RECEIVER_ALARM_MESSAGE = "RECEIVER_ALARM_MESSAGE"
 
 fun isBuildVersionTiramisuOrHigher() = Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU
 

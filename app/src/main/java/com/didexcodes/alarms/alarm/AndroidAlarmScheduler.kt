@@ -4,6 +4,7 @@ import android.app.AlarmManager
 import android.app.PendingIntent
 import android.content.Context
 import android.content.Intent
+import com.didexcodes.alarms.RECEIVER_ALARM_MESSAGE
 import java.time.ZoneId
 
 class AndroidAlarmScheduler(
@@ -14,7 +15,7 @@ class AndroidAlarmScheduler(
 
     override fun schedule(item: AlarmItem) {
         val intent = Intent(context, AlarmReceiver::class.java).apply {
-            putExtra("EXTRA_MESSAGE", item.message)
+            putExtra(RECEIVER_ALARM_MESSAGE, item.message)
         }
         alarmManager.setExactAndAllowWhileIdle(
             AlarmManager.RTC_WAKEUP,
