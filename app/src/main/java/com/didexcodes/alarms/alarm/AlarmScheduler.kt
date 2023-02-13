@@ -1,4 +1,4 @@
-package com.didexcodes.alarmworkmanager
+package com.didexcodes.alarms.alarm
 
 interface AlarmScheduler {
     fun schedule(item: AlarmItem)

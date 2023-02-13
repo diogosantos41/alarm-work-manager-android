@@ -1,4 +1,4 @@
-package com.didexcodes.alarmworkmanager.ui.theme
+package com.didexcodes.alarms.ui.theme
 
 import androidx.compose.material.Typography
 import androidx.compose.ui.text.TextStyle

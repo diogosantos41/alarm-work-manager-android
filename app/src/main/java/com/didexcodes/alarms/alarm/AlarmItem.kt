@@ -1,4 +1,4 @@
-package com.didexcodes.alarmworkmanager
+package com.didexcodes.alarms.alarm
 
 import java.time.LocalDateTime
 

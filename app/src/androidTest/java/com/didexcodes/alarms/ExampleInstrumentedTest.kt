@@ -1,4 +1,4 @@
-package com.didexcodes.alarmworkmanager
+package com.didexcodes.alarms
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
