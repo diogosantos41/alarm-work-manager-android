@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.didexcodes.alarmworkmanager'
+    namespace 'com.didexcodes.alarms'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.didexcodes.alarmworkmanager"
+        applicationId "com.didexcodes.alarms"
         minSdk 26
         targetSdk 33
         versionCode 1

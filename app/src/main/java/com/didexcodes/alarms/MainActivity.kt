@@ -32,7 +32,7 @@ import androidx.work.OneTimeWorkRequestBuilder
 import androidx.work.WorkManager
 import com.didexcodes.alarms.alarm.AlarmItem
 import com.didexcodes.alarms.alarm.AndroidAlarmScheduler
-import com.didexcodes.alarms.ui.theme.AlarmWorkManagerTheme
+import com.didexcodes.alarms.ui.theme.AlarmsTheme
 import com.didexcodes.alarms.work.TriggerAlarmWorker
 import java.time.LocalDateTime
 
@@ -57,7 +57,7 @@ class MainActivity : ComponentActivity() {
                 }
             )
             // Content
-            AlarmWorkManagerTheme {
+            AlarmsTheme {
                 var secondsText by remember {
                     mutableStateOf("")
                 }
